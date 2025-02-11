@@ -1,12 +1,12 @@
 import java.util.*;
 interface Compare{
-   Boolean isGreater(int a, int b);
+    Boolean isGreater(int a, int b);
 }
 interface Increment{
     int addOne (int a);
 }
 interface Concatenate{
-     String addition(String a, String b);
+    String addition(String a, String b);
 }
 interface Convert{
     String convert(String s);
@@ -41,7 +41,7 @@ public class ques1 {
 
         Convert convert = (s) -> s.toUpperCase();
         System.out.println("Uppercase string: " + convert.convert(t6));
-
+        scanner.close();
     }
 
 }
